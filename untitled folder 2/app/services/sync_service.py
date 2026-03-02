@@ -1,8 +1,3 @@
-"""
-app/services/sync_service.py
-Offline → Cloud Sync Service (Production Version)
-"""
-
 import os
 import sys
 from datetime import datetime
