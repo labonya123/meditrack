@@ -1,19 +1,3 @@
-"""
-app/database/seed_data.py - Sample Data for Testing
-=====================================================
-Pre-loads the database with realistic test data so you can
-immediately test all features without entering data manually.
-
-Sample accounts created:
-  Admin:     username=admin        password=admin123
-  Doctor:    username=dr_sharma    password=doctor123
-  Paramedic: username=paramedic1   password=para123
-  Patient:   username=rahul_kumar  password=patient123
-  Patient:   username=priya_devi   password=patient123
-
-Run this file directly: python app/database/seed_data.py
-"""
-
 import uuid
 import json
 from datetime import datetime, date
