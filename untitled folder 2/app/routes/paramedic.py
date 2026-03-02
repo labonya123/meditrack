@@ -1,13 +1,3 @@
-"""
-app/routes/paramedic.py - Paramedic & Emergency Routes
-========================================================
-Paramedic dashboard and the public emergency QR scan view.
-
-  /paramedic/dashboard    - Paramedic home with scan button
-  /emergency/<token>      - PUBLIC page — no login needed
-                            Shows critical emergency info when QR is scanned
-"""
-
 from flask import Blueprint, render_template, request, redirect, url_for, session, flash
 from functools import wraps
 from app.database.local_db import execute_query
