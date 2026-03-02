@@ -1,16 +1,3 @@
-"""
-app/routes/patient.py - Patient Routes
-=======================================
-All pages that patients can access after logging in:
-  /patient/dashboard      - Patient home page
-  /patient/history        - View full medical history
-  /patient/prescriptions  - View all prescriptions
-  /patient/upload         - Upload medical reports
-  /patient/reports        - View uploaded reports
-  /patient/qr-code        - View and print personal QR code
-  /patient/profile        - View/edit profile
-"""
-
 from flask import Blueprint, render_template, request, redirect, url_for, session, flash
 from functools import wraps
 from app.database.local_db import execute_query
