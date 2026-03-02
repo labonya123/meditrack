@@ -1,11 +1,3 @@
-"""
-app/__init__.py - Flask Application Factory
-============================================
-Creates and configures the Flask application.
-Registers all route blueprints.
-Initialises the database on first run.
-"""
-
 from flask import Flask
 from datetime import timedelta
 import os
