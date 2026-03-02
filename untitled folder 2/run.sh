@@ -1,14 +1,3 @@
-#!/bin/bash
-# ============================================================
-# run.sh - MediTrack Mac/Linux One-Click Launcher
-# ============================================================
-# HOW TO USE:
-#   1. Open Terminal
-#   2. Navigate to the meditrack folder: cd meditrack
-#   3. Make executable: chmod +x run.sh
-#   4. Run: ./run.sh
-# ============================================================
-
 echo ""
 echo "==================================================="
 echo "  MediTrack - Emergency Medical Record System"
