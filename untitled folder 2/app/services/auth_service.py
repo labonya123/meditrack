@@ -1,14 +1,3 @@
-"""
-app/services/auth_service.py - Authentication Service
-======================================================
-Handles all user authentication functions:
-- Password hashing (passwords are NEVER stored in plain text)
-- Password verification during login
-- Creating new user accounts
-- Session management for all roles
-- Doctor 15-minute QR session management
-"""
-
 import hashlib
 import secrets
 import uuid
