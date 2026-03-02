@@ -1,13 +1,3 @@
-"""
-app/routes/auth.py - Authentication Routes
-==========================================
-Handles all login, logout, and registration pages.
-Routes:
-  GET/POST /login     - Login page for all roles
-  GET      /logout    - Logs out current user
-  GET/POST /register  - New patient self-registration
-"""
-
 from flask import Blueprint, render_template, request, redirect, url_for, session, flash
 from app.services.auth_service import authenticate_user, create_user, log_audit
 from app.database.local_db import execute_query
