@@ -1,14 +1,3 @@
-"""
-app/database/local_db.py - Local SQLite Database Setup
-=======================================================
-This file creates and manages the local SQLite database.
-All tables are created exactly as per the Master Database
-Indexing Structure PDF provided.
-
-When USE_CLOUD = True in config.py, this still runs locally
-and syncs to Supabase in the background.
-"""
-
 import sqlite3
 import os
 import sys
