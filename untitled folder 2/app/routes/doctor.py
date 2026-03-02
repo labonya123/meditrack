@@ -1,14 +1,3 @@
-"""
-app/routes/doctor.py - Doctor Routes
-=====================================
-All pages doctors can access:
-  /doctor/dashboard       - Doctor home page
-  /doctor/scan            - QR code scanner page
-  /doctor/access/<token>  - Process QR scan and start 15-min session
-  /doctor/patient/<id>    - View patient details (requires active session)
-  /doctor/prescribe/<id>  - Write a new prescription
-"""
-
 from flask import Blueprint, render_template, request, redirect, url_for, session, flash, jsonify
 from functools import wraps
 from app.database.local_db import execute_query
