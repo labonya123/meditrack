@@ -1,19 +1,3 @@
-"""
-run.py - MediTrack Application Entry Point
-==========================================
-This is the file you run to start MediTrack.
-It:
-1. Creates the Flask app
-2. Seeds the database with sample data (first run only)
-3. Starts the web server
-
-HOW TO RUN:
-  Windows:  Double-click run.bat  OR  python run.py
-  Mac/Linux: ./run.sh  OR  python3 run.py
-
-Then open your browser: http://localhost:5000
-"""
-
 import os
 import sys
 
