@@ -1,0 +1,24 @@
+# requirements.txt - MediTrack Python Dependencies
+# ===================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Or the installer scripts will do this automatically.
+
+# Core web framework
+flask==3.0.0
+
+# QR Code generation (generates the patient QR images)
+qrcode[pil]==7.4.2
+
+# Image processing (required by qrcode)
+Pillow==10.2.0
+
+# Encryption for phone numbers
+cryptography==42.0.2
+
+# Werkzeug for secure file uploads (included with Flask, but pinned here)
+werkzeug==3.0.1
+
+# Future Phase 2 — Supabase cloud integration (install when ready)
+# supabase==2.3.0

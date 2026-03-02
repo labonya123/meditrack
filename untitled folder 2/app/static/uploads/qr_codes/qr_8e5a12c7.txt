@@ -1,0 +1,2 @@
+QR Code URL: http://localhost:5000/emergency/77a53945164117a8768abf5d594b0e07
+Install 'qrcode[pil]' package to generate actual QR image.
