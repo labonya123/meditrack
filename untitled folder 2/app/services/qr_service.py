@@ -1,17 +1,3 @@
-"""
-app/services/qr_service.py - QR Code Service
-=============================================
-Handles all QR code generation for patients.
-Each patient gets a unique QR code that:
-- Encodes a secure token (NOT the patient ID directly)
-- Links to the emergency view when scanned
-- Is regenerated when patient data changes
-
-The QR code encodes a URL like:
-  /emergency/<secure_token>
-When scanned, this shows critical emergency info WITHOUT requiring login.
-"""
-
 import uuid
 import hashlib
 import os
