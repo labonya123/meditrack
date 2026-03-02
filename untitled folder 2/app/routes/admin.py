@@ -1,14 +1,3 @@
-"""
-app/routes/admin.py - Admin Routes
-====================================
-Admin manages users and views anonymised health data.
-  /admin/dashboard        - Admin home page
-  /admin/users            - Manage all users
-  /admin/add-user         - Add doctor/paramedic accounts
-  /admin/data-overview    - View anonymised health statistics
-  /admin/deactivate/<id>  - Deactivate a user account
-"""
-
 from flask import Blueprint, render_template, request, redirect, url_for, session, flash
 from functools import wraps
 from app.database.local_db import execute_query
