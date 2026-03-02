@@ -3,7 +3,7 @@
   Version 1.0.0 | Phase 1 | BITS Pilani Project
 ============================================================
 
-HOW TO RUN (No technical knowledge needed!)
+HOW TO RUN
 --------------------------------------------
 
 WINDOWS:
