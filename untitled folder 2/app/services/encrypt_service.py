@@ -1,14 +1,3 @@
-"""
-app/services/encrypt_service.py - Encryption Service
-=====================================================
-Handles all encryption and decryption of sensitive data.
-- Aadhaar is ALWAYS stored as a one-way hash (cannot be reversed)
-- Phone numbers are encrypted (can be decrypted when needed)
-
-Uses Python's built-in hashlib for Aadhaar hashing
-and cryptography library for phone number encryption.
-"""
-
 import hashlib
 import base64
 import os
